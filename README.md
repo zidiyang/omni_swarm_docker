@@ -7,7 +7,7 @@ A fully compiled executable Omni-swarm Docker project with the sync_bag_player t
 
 #### 1. Docker镜像拉取
 
-在原始的Omni-swarm docker（TAG is xuhao1/swarm2020:pc）的基础上完成了完成项目构建，形成了可直接运行的docker环境，TAG：blueberryfaygo/fullws_omniswarm:pc，通过以下命令拉取：
+在原始的Omni-swarm docker（TAG is xuhao1/swarm2020:pc）的基础上完成了项目的完整编译，形成了可直接运行的docker环境，TAG：blueberryfaygo/fullws_omniswarm:pc，通过以下命令拉取：
 
 ```bash
 docker pull blueberryfaygo/fullws_omniswarm:pc
