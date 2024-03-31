@@ -48,6 +48,8 @@ cd .. && catkin_make
 
 #### 4. 运行
 
+主机运行：
+
 ```bash
 rosrun sync_bag_player environment_setup.sh
 rosrun sync_bag_player docker_swarm_test.py path~to~/config_all.yaml
