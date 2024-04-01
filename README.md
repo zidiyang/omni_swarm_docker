@@ -7,7 +7,7 @@ A fully compiled runnable Omni-swarm Docker project with the sync_bag_player too
 
 #### 1. Docker image pull
 
-Based on the original Omni-swarm Docker (TAG is xuhao1/swarm2020:pc), a runnable Docker image is created with Omni-swarm code fully compiled. TAG is blueberryfaygo/fullws_omniswarm:pc, which can be pulled with the following command:
+Based on the original Omni-swarm Docker (https://github.com/HKUST-Aerial-Robotics/Omni-swarm, TAG is xuhao1/swarm2020:pc), a runnable Docker image is created with Omni-swarm code fully compiled. TAG is blueberryfaygo/fullws_omniswarm:pc, which can be pulled with the following command:
 
 ```bash
 docker pull blueberryfaygo/fullws_omniswarm:pc
