@@ -1,7 +1,7 @@
 # Omni_swarm docker
 
 ### Introduction
-A fully compiled runnable Omni-swarm Docker project with the sync_bag_player tool. Intend to make it easier to evaluate the multi-robot datasets on single PC.
+A fully compiled runnable Omni-swarm Docker project with the sync_bag_player tool, Intended to make it easier to evaluate the multi-robot datasets on single PC.
 
 ### Usage
 
