@@ -17,7 +17,7 @@ docker pull blueberryfaygo/fullws_omniswarm:pc
 
 [Download on dropbox](https://www.dropbox.com/sh/w5yagas06a9r14d/AACdKgMfCCg07M6jr6Ipmus1a?dl=0)
 
-[Download on Baidu Netdisk](https://pan.baidu.com/s/1qeQ-NllqrElAl8Cd-ULDRw?pwd=8xnn) with the extraction code: 8xnn 
+or [Download on Baidu Netdisk](https://pan.baidu.com/s/1qeQ-NllqrElAl8Cd-ULDRw?pwd=8xnn) with the extraction code: 8xnn 
 
 **Modify the config_all.yaml**:
 
