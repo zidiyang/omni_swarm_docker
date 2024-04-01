@@ -21,9 +21,9 @@ or [Download on Baidu Netdisk](https://pan.baidu.com/s/1qeQ-NllqrElAl8Cd-ULDRw?p
 
 **Modify the config_all.yaml**:
 
-Replace the  value of <u>workspace</u> with <u>void</u>
+Replace the  value of **workspace** with **void**
 
-Replace the  value of <u>image_name</u> with <u>blueberryfaygo/fullws_omniswarm:pc</u>
+Replace the  value of **image_name** with **blueberryfaygo/fullws_omniswarm:pc**
 
 ```bash
 workspace: ""
