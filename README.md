@@ -1,17 +1,20 @@
 # Omni_swarm docker
 
 ### Introduction
+
 A fully compiled runnable Omni-swarm Docker project with the sync_bag_player tool, Intended to make it easier to evaluate the multi-robot datasets on single PC.
 
 ### Usage
 
 #### 1. Docker image pull
 
-Based on the original Omni-swarm Docker (https://github.com/HKUST-Aerial-Robotics/Omni-swarm, TAG is xuhao1/swarm2020:pc), a runnable Docker image is created with Omni-swarm code fully compiled. TAG is blueberryfaygo/fullws_omniswarm:pc, which can be pulled with the following command:
+Based on the original Omni-swarm Docker (https://github.com/HKUST-Aerial-Robotics/Omni-swarm, TAG is xuhao1/swarm2020:pc), a runnable Docker image is created with Omni-swarm code fully compiled. TAG is blueberryfaygo/compiled_omniswarm:pc, which can be pulled with the following command:
 
 ```bash
-docker pull blueberryfaygo/fullws_omniswarm:pc
+docker pull blueberryfaygo/compiled_omniswarm:pc
 ```
+
+No need to create a container after pulling is completed.
 
 #### 2. Datasets and config
 
@@ -23,11 +26,11 @@ or [Download on Baidu Netdisk](https://pan.baidu.com/s/1qeQ-NllqrElAl8Cd-ULDRw?p
 
 Replace the  value of **workspace** with **void**
 
-Replace the  value of **image_name** with **blueberryfaygo/fullws_omniswarm:pc**
+Replace the  value of **image_name** with **blueberryfaygo/compiled_omniswarm:pc**
 
 ```bash
 workspace: ""
-image_name: "blueberryfaygo/fullws_omniswarm:pc"
+image_name: "blueberryfaygo/compiled_omniswarm:pc"
 ```
 
 #### 3. Build
@@ -46,12 +49,17 @@ git clone https://gitee.com/blueberryfaygo/omni_swarm_docker.git
 cd .. && catkin_make
 ```
 
-#### 4. Evalution on single PC for multi-robot datasets
+#### 4. Run on a single PC.
 
 Running on **host** machine：
 
 ```bash
 rosrun sync_bag_player environment_setup.sh
-rosrun sync_bag_player docker_swarm_test.py path~to~/config_all.yaml
+rosrun sync_bag_player docker_swarm_test.py /path~to~/config_all.yaml
 ```
 
+#### 5. Evaluation
+
+Enter the path of the 'output' folder generated under the dataset  directory into the 'bag_read' function in  'DataAnalysis/loop_accurate_analyze.ipynb'.
+
+Run 'loop_accurate_analyze.ipynb' to obtain accuracy evaluation on position, attitude, distance and relative pose.
