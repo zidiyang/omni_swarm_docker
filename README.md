@@ -60,6 +60,6 @@ rosrun sync_bag_player docker_swarm_test.py /path~to~/config_all.yaml
 
 #### 5. Evaluation
 
-Enter the path of the 'output' folder generated under the dataset  directory into the 'bag_read' function in  'DataAnalysis/loop_accurate_analyze.ipynb'.
+Replace the path of the 'bag_read' function in  'DataAnalysis/loop_accurate_analyze.ipynb' with the path of your 'output' folder generated under the dataset  directory.
 
 Run 'loop_accurate_analyze.ipynb' to obtain accuracy evaluation on position, attitude, distance and relative pose.
