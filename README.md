@@ -22,7 +22,7 @@ No need to create a container after pulling is completed.
 
 or [Download on Baidu Netdisk](https://pan.baidu.com/s/1qeQ-NllqrElAl8Cd-ULDRw?pwd=8xnn) with the extraction code: 8xnn 
 
-**Modify the config_all.yaml**:
+**Modify the config_all.yaml in Dataset**:
 
 Replace the  value of **workspace** with **void**
 
@@ -45,7 +45,7 @@ Build sync_bag_player with ROS：
 
 ```bash
 cd your~workspace~/src/
-git clone https://gitee.com/blueberryfaygo/omni_swarm_docker.git
+git clone https://github.com/zidiyang/omni_swarm_docker.git
 cd .. && catkin_make
 ```
 
